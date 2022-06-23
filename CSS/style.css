@@ -183,3 +183,27 @@ a:visited {
 .my-list li:last-child{
     background-color: blue;
 }
+
+.container-box{
+  border: 4px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.box{
+  border: 4px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.box-small{
+  width: 50px;
+  height: 50px;
+  margin-left: 24px;
+}
+
+.box-wrapper{
+  display: flex;
+  align-items: center;
+}
